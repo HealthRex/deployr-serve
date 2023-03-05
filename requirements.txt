@@ -1,0 +1,12 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+pandas==1.3.5
+scikit-learn==1.0.2
+tqdm==4.64.1
+requests==2.25.0
+xmltodict==0.12.0
+azure-functions==1.12.0
+azure.cosmos==4.2.0
+git+https://github.com/HealthRex/deployr-dev.git@01ef3f0ddf0ab6452b86001caf3b735121ec7b43
